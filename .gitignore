@@ -1,0 +1,13 @@
+# KiCad privremeni i backup fajlovi
+*.bak
+*.kicad_pcb-bak
+*.sch-bak
+*~
+_autosave-*
+*.lck
+
+# Output fajlovi (Gerberi, PDF-ovi)
+# Bolje je generisati ih iz koda nego čuvati verzije
+/gerbers/
+/plots/
+/fp-info-cache
