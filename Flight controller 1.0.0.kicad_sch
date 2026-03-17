@@ -7133,12 +7133,6 @@
 		(uuid "61c3f66c-f03f-4754-8073-c7ace7dd64f5")
 	)
 	(junction
-		(at 273.05 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "662ff756-82c1-4338-b63c-791c2a016a88")
-	)
-	(junction
 		(at 50.8 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7349,6 +7343,12 @@
 		(uuid "ddc69e65-7bc5-4a19-8d14-d3a47e5c3ef5")
 	)
 	(junction
+		(at 275.59 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddd73b06-e929-49b5-89eb-6aad56fe697b")
+	)
+	(junction
 		(at 128.27 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7359,12 +7359,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "effde8da-8620-44f5-a2df-00e0f40c2507")
-	)
-	(junction
-		(at 284.48 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4b1ed6f-d66e-44b8-aecb-d8edc517d97a")
 	)
 	(junction
 		(at 64.77 248.92)
@@ -7579,16 +7573,6 @@
 			(type default)
 		)
 		(uuid "052b7795-1fca-41ed-843f-988bbe6d621a")
-	)
-	(wire
-		(pts
-			(xy 265.43 190.5) (xy 273.05 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05774d9e-299c-43f6-86e3-38d786132916")
 	)
 	(wire
 		(pts
@@ -9282,16 +9266,6 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 190.5) (xy 297.18 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "943148c4-60a7-4975-bdb1-606031ad861a")
-	)
-	(wire
-		(pts
 			(xy 368.3 203.2) (xy 374.65 203.2)
 		)
 		(stroke
@@ -9562,7 +9536,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 190.5) (xy 284.48 190.5)
+			(xy 265.43 190.5) (xy 275.59 190.5)
 		)
 		(stroke
 			(width 0)
@@ -10169,6 +10143,16 @@
 			(type default)
 		)
 		(uuid "e1d5e1b7-e5d8-48fd-9bb9-e5d5a0eea9f8")
+	)
+	(wire
+		(pts
+			(xy 275.59 190.5) (xy 297.18 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f7578d-f669-4e63-84c3-068b97f3e29b")
 	)
 	(wire
 		(pts
@@ -11595,7 +11579,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 373.6848 208.28 0)
 			(effects
 				(font
@@ -11622,7 +11606,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C178330"
 			(at 374.65 212.09 0)
 			(effects
 				(font
@@ -11900,7 +11884,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C265120"
 			(at 22.86 161.29 0)
 			(effects
 				(font
@@ -12062,7 +12046,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C107335"
 			(at 241.3 80.01 90)
 			(effects
 				(font
@@ -12207,7 +12191,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C462619"
 			(at 316.23 200.66 0)
 			(effects
 				(font
@@ -12475,7 +12459,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C137764"
 			(at 335.28 219.71 0)
 			(effects
 				(font
@@ -12504,8 +12488,8 @@
 		(at 379.73 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "138b1aef-975f-4477-976c-52854c77fcd1")
@@ -12701,7 +12685,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2907115"
 			(at 344.17 208.28 90)
 			(effects
 				(font
@@ -12788,7 +12772,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C19273151"
 			(at 251.46 147.32 90)
 			(effects
 				(font
@@ -12817,8 +12801,8 @@
 		(at 86.36 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "189e00ea-ccf9-4ddf-bc84-4777155a59aa")
@@ -12940,7 +12924,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2886902"
 			(at 162.56 104.14 0)
 			(effects
 				(font
@@ -13159,7 +13143,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C19273151"
 			(at 389.89 222.25 90)
 			(effects
 				(font
@@ -13188,8 +13172,8 @@
 		(at 44.45 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ff3a72d-3305-46d9-a23d-548c9c0ebdb7")
@@ -13256,7 +13240,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C30584800"
 			(at 44.45 63.5 90)
 			(effects
 				(font
@@ -13344,7 +13328,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C19273151"
 			(at 88.9 267.97 90)
 			(effects
 				(font
@@ -13373,8 +13357,8 @@
 		(at 40.64 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "247efac9-f90f-420e-8a2e-ac4c61eaaedf")
@@ -13725,8 +13709,8 @@
 		(at 378.46 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b83394c-d6b5-4100-86e2-cb315bbc4b73")
@@ -13932,7 +13916,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 284.48 198.12 0)
+		(at 275.59 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13941,7 +13925,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f765b51-6a00-426c-9b03-230a0cc36d94")
 		(property "Reference" "#PWR039"
-			(at 284.48 204.47 0)
+			(at 275.59 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13950,7 +13934,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 203.2 0)
+			(at 275.59 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13959,7 +13943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 284.48 198.12 0)
+			(at 275.59 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13968,7 +13952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.48 198.12 0)
+			(at 275.59 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13977,7 +13961,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 284.48 198.12 0)
+			(at 275.59 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14264,7 +14248,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2907148"
 			(at 88.9 257.81 0)
 			(effects
 				(font
@@ -14306,7 +14290,7 @@
 				)
 			)
 		)
-		(property "Value" "2.5u"
+		(property "Value" "10u"
 			(at 356.87 200.66 90)
 			(effects
 				(font
@@ -14314,7 +14298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 356.87 203.2 0)
 			(effects
 				(font
@@ -14341,7 +14325,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C53436344"
 			(at 356.87 203.2 90)
 			(effects
 				(font
@@ -14539,7 +14523,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C3288646"
 			(at 351.79 50.8 0)
 			(effects
 				(font
@@ -15241,79 +15225,12 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 273.05 198.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "560065c2-7dd1-4f9b-8ced-69fe30f3f246")
-		(property "Reference" "#PWR037"
-			(at 273.05 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 273.05 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.05 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 273.05 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7e99193-7387-40a8-bbe1-050a5eecbb96")
-		)
-		(instances
-			(project "Flight controller 1.0.0"
-				(path "/917e9012-4ce4-437f-a09e-9fa1c9eb254f"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:NPN")
 		(at 48.26 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "568e5766-c43e-4286-bd0b-dca93e9d7ff1")
@@ -15615,7 +15532,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C3014296"
 			(at 39.37 248.92 0)
 			(effects
 				(font
@@ -15695,7 +15612,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5345968"
 			(at 276.86 261.62 0)
 			(effects
 				(font
@@ -15915,7 +15832,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C98220"
 			(at 19.05 205.74 0)
 			(effects
 				(font
@@ -15993,7 +15910,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 33.02 266.7 0)
 			(effects
 				(font
@@ -16281,7 +16198,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2907148"
 			(at 389.89 212.09 0)
 			(effects
 				(font
@@ -16519,8 +16436,8 @@
 		(at 40.64 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(uuid "7d0838ff-8865-45ad-8e96-77911aab2967")
 		(property "Reference" "R15"
@@ -16568,7 +16485,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C98220"
 			(at 40.64 82.55 0)
 			(effects
 				(font
@@ -16665,7 +16582,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C30584800"
 			(at 64.77 255.27 90)
 			(effects
 				(font
@@ -16694,8 +16611,8 @@
 		(at 86.36 248.92 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e0fff4a-1ed7-4819-9be4-0bda83a66b39")
@@ -16784,7 +16701,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10u"
 			(at 81.28 262.8899 0)
 			(effects
 				(font
@@ -16793,7 +16710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 78.4352 265.43 0)
 			(effects
 				(font
@@ -16820,7 +16737,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C53067"
+		(property "LCSC" "C315248"
 			(at 77.47 261.62 0)
 			(effects
 				(font
@@ -16899,7 +16816,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2907113"
 			(at 19.05 218.44 0)
 			(effects
 				(font
@@ -17111,7 +17028,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2933134"
 			(at 53.34 256.54 0)
 			(effects
 				(font
@@ -17733,7 +17650,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2916927"
 			(at 153.67 124.46 0)
 			(effects
 				(font
@@ -17831,86 +17748,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 273.05 194.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a50f4972-f55f-48fb-ae44-e7df5f6b7afb")
-		(property "Reference" "C20"
-			(at 276.86 193.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 276.86 195.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 274.0152 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 273.05 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 273.05 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 273.05 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b3905ccf-f0e1-4b0e-b5cd-5f496e792e19")
-		)
-		(pin "2"
-			(uuid "2a6a16e1-5917-4a42-8cc8-0db65db0a535")
-		)
-		(instances
-			(project "Flight controller 1.0.0"
-				(path "/917e9012-4ce4-437f-a09e-9fa1c9eb254f"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 284.48 194.31 0)
+		(at 275.59 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17919,7 +17757,7 @@
 		(fields_autoplaced yes)
 		(uuid "a553304e-4b89-4d50-a663-d11a6f8674b8")
 		(property "Reference" "C21"
-			(at 288.29 193.0399 0)
+			(at 279.4 193.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17927,8 +17765,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47u"
-			(at 288.29 195.5799 0)
+		(property "Value" "4.7u"
+			(at 279.4 195.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17936,8 +17774,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 285.4452 198.12 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 276.5552 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17946,7 +17784,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 284.48 194.31 0)
+			(at 275.59 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17955,7 +17793,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 284.48 194.31 0)
+			(at 275.59 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17963,8 +17801,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 284.48 194.31 0)
+		(property "LCSC" "C6119795"
+			(at 275.59 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18116,7 +17954,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5345968"
 			(at 276.86 271.78 0)
 			(effects
 				(font
@@ -18463,7 +18301,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C15742"
 			(at 207.01 139.7 0)
 			(effects
 				(font
@@ -19128,7 +18966,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2907148"
 			(at 247.65 139.7 90)
 			(effects
 				(font
@@ -19468,7 +19306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 129.2352 90.17 0)
 			(effects
 				(font
@@ -19495,7 +19333,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C315248"
 			(at 128.27 86.36 0)
 			(effects
 				(font
@@ -19571,7 +19409,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C98220"
 			(at 146.05 111.76 90)
 			(effects
 				(font
@@ -19649,7 +19487,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C49207092"
 			(at 265.43 198.12 90)
 			(effects
 				(font
@@ -19692,7 +19530,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18.2k"
+		(property "Value" "110k"
 			(at 303.53 215.8999 0)
 			(effects
 				(font
@@ -19728,7 +19566,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2906984"
 			(at 300.99 214.63 0)
 			(effects
 				(font
@@ -19804,7 +19642,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2907044"
 			(at 386.08 128.27 0)
 			(effects
 				(font
@@ -20452,8 +20290,8 @@
 		(at 35.56 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e828b1d5-7978-4c50-97eb-14691a0e68be")
@@ -20500,7 +20338,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2907113"
 			(at 35.56 74.93 90)
 			(effects
 				(font
@@ -20576,7 +20414,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2907044"
 			(at 396.24 128.27 0)
 			(effects
 				(font
@@ -20863,7 +20701,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C165948"
 			(at 359.41 130.81 0)
 			(effects
 				(font
@@ -21019,7 +20857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 44.1452 271.78 0)
 			(effects
 				(font
@@ -21046,7 +20884,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C315248"
 			(at 43.18 267.97 0)
 			(effects
 				(font
@@ -21358,8 +21196,8 @@
 		(at 350.52 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f961f7fb-ed17-4fa2-bb04-30f737a4271f")
