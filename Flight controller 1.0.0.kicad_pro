@@ -482,7 +482,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
+        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -501,7 +501,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.7
+        "track_width": 0.8
       },
       {
         "clearance": 0.15,
@@ -537,7 +537,7 @@
         "pattern": "+5V"
       },
       {
-        "netclass": "Default",
+        "netclass": "Power",
         "pattern": "+3.3V"
       },
       {
@@ -745,7 +745,7 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,

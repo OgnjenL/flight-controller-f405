@@ -12459,7 +12459,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C137764"
+		(property "LCSC" "C49654438"
 			(at 335.28 219.71 0)
 			(effects
 				(font
@@ -14298,7 +14298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 356.87 203.2 0)
 			(effects
 				(font
@@ -14325,7 +14325,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C53436344"
+		(property "LCSC" "C39846710"
 			(at 356.87 203.2 90)
 			(effects
 				(font
@@ -15910,7 +15910,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C2907123"
 			(at 33.02 266.7 0)
 			(effects
 				(font
@@ -19460,7 +19460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
 			(at 265.43 198.12 0)
 			(effects
 				(font
@@ -19487,7 +19487,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C49207092"
+		(property "LCSC" "C478011"
 			(at 265.43 198.12 90)
 			(effects
 				(font
