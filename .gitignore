@@ -1,13 +1,19 @@
-# KiCad privremeni i backup fajlovi
+# Privremeni fajlovi koje KiCad pravi dok radiš
 *.bak
 *.kicad_pcb-bak
-*.sch-bak
+*.kicad_sch-bak
 *~
 _autosave-*
 *.lck
 
-# Output fajlovi (Gerberi, PDF-ovi)
-# Bolje je generisati ih iz koda nego čuvati verzije
-/gerbers/
-/plots/
-/fp-info-cache
+# Cache i lokalna podešavanja (ne utiču na dizajn)
+fp-info-cache
+python-float-config
+/production/netlist.ipc
+
+# Backup folderi (Git je tvoj backup sada)
+*-backups/
+
+# Operativni sistem smeće
+Thumbs.db
+.DS_Store
