@@ -4,8 +4,8 @@
 
 This project focuses on PCB design around the STM32F405 MCU. It features a 4-layer PCB with dedicated ground and power planes with an integrated IMU.
 
-![Front view](images/Front.png)
-![Back view](images/Back.png)
+![Front view](Images/Front.png)
+![Back view](Images/Back.png)
 
 ### Components and Specifications
 
